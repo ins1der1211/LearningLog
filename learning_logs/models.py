@@ -20,5 +20,4 @@ class Entry(models.Model):
         verbose_name_plural = 'entries'
 
     def __str__(self):
-        Topic.objects()
         return f'{self.text[:50]}...'
